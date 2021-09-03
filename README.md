@@ -24,3 +24,13 @@ t clear
 // 查看所有任务，且可选择任务进行操作
 t tasks
 ```
+
+## 测试
+本项目使用 jest 进行单元测试
+
+测试文件读写 db.read 和 db.write
+
+本地运行：
+```
+yarn test
+```
